@@ -1,0 +1,58 @@
+ .whole{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                row-gap: 20px;
+                column-gap: 50px;
+                margin-bottom: 0px;
+            }
+            @media (max-width:600px) {
+                .whole{
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+            .picture{
+                width: 300px;
+                margin-bottom: 0px;
+                position: relative;
+
+            }
+            .picture-grid{
+                margin-bottom: 5px;
+                position: relative;
+            }
+            .video-time{
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 15px;
+                right: -10px;
+                font-family: arial;
+                font-size: 12px;
+                font-weight: bold;
+                padding-left: 2px;
+                padding-right: 2px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                border-radius: 2px;
+
+            }
+            .profile-pic{
+                width: 35px;
+                height: 35px;
+                 border-radius: 100px;
+                 margin-top: 5px;
+                
+            }
+           
+            .info{
+                margin-top: -10px;
+                margin-bottom: 0px;
+                width: 230px;
+                
+            }
+            
+            .particulars{
+                display: grid;
+                grid-template-columns: 45px 1fr ;
+            }
+            
